@@ -1,5 +1,5 @@
-from src.animate_text import animate_text
-from src.calc import calc
+from animate_text import animate_text
+from calc import calc
 
 
 def main():
@@ -7,6 +7,7 @@ def main():
     ╔═══════════════════════════════╗
     ║    🧮 RPN CALCULATOR 🧮       ║
     ║  Reverse Polish Notation      ║
+    ║       By: B3rezzka            ║
     ╚═══════════════════════════════╝
     """  # Animated welcome banner
     animate_text(banner, 0.01, "typing")

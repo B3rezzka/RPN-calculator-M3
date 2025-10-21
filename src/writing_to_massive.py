@@ -1,7 +1,8 @@
 import sys
-from src.animate_text import animate_text
-from src.is_op import is_op
-from src.is_num import is_num
+from animate_text import animate_text
+from is_op import is_op
+from is_num import is_num
+from convert_to_num import convert_to_num
 
 
 def writing_to_massive(stek, element):  # Process one element and update stack

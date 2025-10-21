@@ -1,7 +1,7 @@
 import sys
 import time
-from src.animate_text import animate_text
-from src.writing_to_massive import writing_to_massive
+from animate_text import animate_text
+from writing_to_massive import writing_to_massive
 
 
 def calc(expression):  # Calculate Reverse Polish Notation expression
